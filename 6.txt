@@ -1,0 +1,1 @@
+username의 값을 guest->admin으로 변경하고 새로고침 하면 되는 쉬운 문제
