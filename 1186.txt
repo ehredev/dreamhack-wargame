@@ -1,0 +1,2 @@
+X-Forwarded-For: 203.0.113.195 `cat /flag`를 헤더에 추가
+request.access_route[0]의 ip는 X-Forwarded-For에 저장된 프록시를 거치기전의 ip라는걸 알면 좋을것 같다 
