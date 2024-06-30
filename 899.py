@@ -19,3 +19,19 @@ def reverse():
 print(reverse())
 
 # 다시는 이런 문제 못풀꺼같다 
+
+# 다른 코드
+def decode_algorithm(menu_str):
+    org = ''
+    
+    for i in range(0, 16):
+      if menu_str[i] == '_':
+        org = org + hex(11)[2:]
+      else:
+        org = org + menu_str[i]
+    
+    return org
+
+menu_str = '1_c_3_c_0__ff_3e'
+org = decode_algorithm(menu_str)
+print(int(org, 16))
