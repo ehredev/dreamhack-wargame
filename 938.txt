@@ -1,0 +1,3 @@
+http://host1.dreamhack.games:22108/flag.txt 접속
+nginx.conf에서 접근을 막지 않았음
+정해가 매우 어렵지만 편법으로 매우 쉽게 풀 수 있는 문제
