@@ -1,0 +1,2 @@
+_all_docs라는 특수 구성 요소를 전달시 upw값이 없어서 undefined가 돌아온다
+이때 upw값을 제거(비우는거 X)하고 전달하면 undefined == undefined가 되서 지나갈 수 있게 된다
