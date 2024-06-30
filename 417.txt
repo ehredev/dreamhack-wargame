@@ -1,0 +1,4 @@
+생각보다 간단한 문제, path traversal에 대해 알아야됨
+path traversal을 이용하여 nginx.conf에 있는 log
+access_log  /var/log/nginx/nginx_access.log  main;
+를 확인하러 가서 API_KEY를 획득 할 수 있음
