@@ -1,0 +1,5 @@
+내가 사용한 페이로드
+' OR userid='admin';-- 
+
+GPT가 만든 페이로드
+' UNION SELECT 'admin', NULL, 0; --
