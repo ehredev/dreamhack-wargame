@@ -103,7 +103,6 @@ def session1():
         res = requests.get(query)
         if len(res.text) != 0:
             print(res.text)
-            exit()
 
 def session2():
     while True:
